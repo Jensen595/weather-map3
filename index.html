@@ -1,0 +1,73 @@
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+   integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+   crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+   integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+   crossorigin=""></script>
+
+<div class="header">
+  <h1>Weather Map</h1>
+</div>
+
+
+
+<div class="topnav">
+  <li><a class="active" href="./index.html">Home</a></li>
+  <li><a  href="./about.html">API</a></li>
+ 
+
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>Map</h2>
+      
+      <p id="theanddatetime"></p>
+      
+      <div id="map" style="height: 500px;"></div>
+  <script src="map.js"></script>
+
+
+
+  <div id="location"></div>
+  <div id="weather-description"></div>
+  <div id="weather-icon"></div>
+  <div id="temperature"></div>
+
+
+    </div>
+
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>About Me</h2>
+    
+      <p>This is a map that can show your location by using geolcation and then provide the current weather e.g. The teampreture and type of clouds</p>
+    </div>
+    <div class="card">
+      <h3>How To Use</h3>
+      <p>Well its quite easy </p>
+      <p>1.To use the map use your mouse to move around the map. </p>
+      <p>2.Your location and weather infomation will be shown below the map. </p>
+
+    </div>
+    <div class="card">
+      <h3>Contact Me</h3>
+      <p>Email: jensen.philip20@bathspa.ac.uk<link></p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <p>Copyright © 2023  Weather Map</p>
+</div>
+
+</body>
+</html>
